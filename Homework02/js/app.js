@@ -73,10 +73,9 @@ while(index <= 9){
 
 //exercise 07
 /*let sumbol = 1000;
-const prefix = '&#';
 
 while(sumbol <= 2000){
-	console.log(prefix + sumbol);
+	console.log('&#' + sumbol);
 	sumbol++;
 }*/
 //or
@@ -125,30 +124,58 @@ for(let i = 1; i <= 50; i++){
 */
 
 //exercise 10
-/*let arrayLength = parseFloat(prompt('Please, enter array length', '1'));
+/*let arrayLength = parseFloat(prompt('Please, enter array length', '1')) -1;
+let array = [];
+
+for(let i = 0, j = ''; i <= arrayLength; i++){
+	j+='x';
+	array[i] = j;
+}
+console.log(array);*/
+
+//exercise 11
+/*let arrayLength = parseFloat(prompt('Please, enter array length', '1')) -1;
 let array = [];
 
 for(let i = 0; i <= arrayLength; i++){
-	//array;
+	
+	let j = '';
+	for(let n = 0; n <= i; n++){
+		j += i+1;
+	}
+	array[i] = j;
 }
-console.log(arrayLength);
+console.log(array);*/
 
-*/
-//console.log('123');
+//exercise 12
+/*let array = [1, 5, 3, 2, 1 , 2];
+let result = 0;
+let elementsQuantity = 0;
 
+for(let i = 0; i < array.length; i++){
 
-
-for(let i =1; i <= 100 ; i++){
-	if( i % 3 === 0 && i % 10 === 0){
-		console.log('TriTon');
-	} else 	if(i % 3 === 0){
-		console.log('Tri');
-	} else if(i %10 === 0){
-		console.log('Ton')
-	} else {
-		console.log(i);
+	if(result <= 10){
+		result += array[i];
+		elementsQuantity = i + 1;
 	}
 }
+console.log(elementsQuantity);*/
+
+//exercise 13
+let array = [1, 5, 3, 2, 1 , 2];
+let newArray = [];
+
+for(let i = array.length-1; i >= 0; i--){
+	newArray.push(array[i]);
+	
+}
+console.log(newArray);
+
+
+
+
+
+
 
 
 
