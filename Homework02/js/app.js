@@ -162,12 +162,43 @@ for(let i = 0; i < array.length; i++){
 console.log(elementsQuantity);*/
 
 //exercise 13
-let array = [1, 5, 3, 2, 1 , 2];
+/*let array = [1, 5, 3, 2, 1 , 2];
 let newArray = [];
 
 for(let i = array.length-1; i >= 0; i--){
 	newArray.push(array[i]);
 	
+}
+console.log(newArray);
+*/
+
+//exercise 14
+/*const oldArray = [-2, 1, 20, 5, 11, 0, -55, 78, 3, 24, 101 , 2, 13, 8, 19];
+let newArray = [];
+
+for(let i = 0; i <= oldArray.length; i++){
+	if(oldArray[i] > 0 && oldArray[i] < 10){
+		newArray.push(oldArray[i]);
+	}
+	
+}
+console.log(newArray);*/
+
+//exercise 15
+/*const oldArray = [-2, 1, 20, 5, 11, 0, -55, 78, 3, 24, 101 , 2, 13, 8, 19];
+let newArray = [];
+
+for(let i = 0; i <= oldArray.length; i++){
+	if(oldArray[i] % 2 ===  0 ) newArray.push(oldArray[i]);	
+}
+console.log(newArray);*/
+
+//exercise 16
+const oldArray = [1, 2, 3, 4, 5, 6];
+let newArray = [];
+
+for(let i = 0; i <= oldArray.length; i++){
+	if(oldArray[i] % 2 ===  0 ) newArray.push(oldArray[i]);	
 }
 console.log(newArray);
 
