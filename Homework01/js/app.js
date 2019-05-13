@@ -27,16 +27,26 @@ if(-4 * x + 4 * y - 16 <= 0 && 4 * x + 4 * y - 16 <= 0 && 0 * x + 8 * y >=0) {
 //2.2
 /*const x = parseFloat(prompt('Please, enter x'));
 const y = parseFloat(prompt('Please, enter y'));
+const conditionUp = 1*x + 1*y + 0 >= 0 && 1*x - 1*y + 0 <= 0 && 0*x + 2*y -2 <= 0;
+const conditionDown = 1*x - 1*y + 0 >= 0 &&  1*x + 1*y + 0 <= 0 && 0*x + 2*y + 2 >= 0;
 
-if(-2 * x + 2 * y + 0 <= 0 && 2 * x + 2 * y + 0 <= 0 && 0 * x + 2 * y - 2 >=0 && 0 * x + 2 * y + 2 <=0) {
+if(conditionUp || conditionDown) {
 	alert('the point belong to the plane');
 } else {
 	alert('the point does not belong to the plane');
 }*/
 
-
 //math.by уравнение прямой по двум точкам <0
 //уравнение круга на плоскости
+//2.3
+/*const x = parseFloat(prompt('Please, enter x'));
+const y = parseFloat(prompt('Please, enter y'));
+
+if(x*x + y*y <= 1 || 0*x + 2*y+0 <= 0 && 2*x + 0* y + 0 <= 0 && 2*x + 2*y + 4 >= 0) {
+	alert('the point belong to the plane');
+} else {
+	alert('the point does not belong to the plane');
+}*/
 
 // exercise 03
 /*let day = prompt('Please, enter day number of the week', '1 - 7');
